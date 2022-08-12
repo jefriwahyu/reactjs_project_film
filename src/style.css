@@ -1,0 +1,20 @@
+.pagination {
+    display: flex;
+    padding-left : 0;
+    list-style: none;
+    border-radius: .25rem;
+    margin: 15px auto;
+}
+
+.pagination >li>a {
+    border: 1px solid lightblue;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pagination > .active > a {
+    background-color: #2185D0;
+    border-color: darkblue;
+    color : white;
+}
